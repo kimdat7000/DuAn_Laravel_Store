@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #4267b2;
+    font-size: 12px;
+    width: 100%;
+    transition: 0.3s;
+    position: relative;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: #ffffff;
+}
+
+.logo-top {
+    height: 40px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+.carousel-inner img{
+    height: 500px;
+}
+
+/* FOOTER */
+.main-footer a {
+    color: #272727;
+    text-decoration: none;
+  }
+
+.main-footer h4 {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-left: -18px;
+}
+.main-footer .footer-col a:hover {
+    color: #333;
+    text-decoration: none;
+}
+.main-footer .footer-col {
+    margin-bottom: 24px;
+    padding-left: 25px;
+}
+.main-footer .footer-content ul {
+    margin-bottom: 15px;
+}
+.main-footer .footer-content ul li {
+    display: block;
+    line-height: 28px;
+    position: relative;
+}
+.main-footer .footer-content ul li a,
+.main-footer .footer-content ul li span {
+    position: relative;
+    overflow: hidden;
+}
+.main-footer .footer-content.toggle-footer ul li a:before,
+.main-footer .footer-content.toggle-footer ul li span:before {
+    content: "";
+    width: 7px;
+    height: 1px;
+    background: #000000;
+    left: -18px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.footer-content.toggle-footer span {
+    font-weight: 500;
+}
+.main-footer .list-social {
+    margin-bottom: 10px;
+}
+.main-footer .list-social li {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin-right: 12px;
+}
+.main-footer .list-social li a {
+    font-size: 12px;
+    display: block;
+    line-height: 22px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+.logo-footer {
+    margin-bottom: 20px;
+}
+.logo-footer img {
+    width: 150px;
+}
+.main-footer--copyright .main-footer--border {
+    border-bottom: none;
+}
+.main-footer--copyright p {
+    text-align: center;
+    margin-bottom: 0;
+}
+.main-footer--copyright a {
+    color: #272727;
+    text-decoration: none;
+}
+
+.main-footer {
+    padding: 24px 0 0;
+    border-top: 1px dashed #e0d9d6;
+}
+
+/* MODEL */
+.home-model .modal-body {
+    position: relative;
+    text-align: center;
+}
+
+.home-model .modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.home-model .modal-body p {
+    position: absolute;
+    bottom: 200px;
+    left:70%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.blog p{
+    font-size: 15px;
+}
+
+.text-pro h6, .text{
+    font-size: 13px;
+}
+
+/* Số lượng */
+.square-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.sizesp{
+    border: 1px solid grey;
+}
+.sizesp:focus{
+    border: 3px solid blue;
+}
+
+
+.color-selector {
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-selector:checked + label {
+    border: 2px solid black;
+}
+
+.color-selector:checked + label::after {
+    content: "\2713"; /* Unicode character for checkmark */
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+    .payment-option {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: green;
+        font-size: 18px;
+        display: none;
+    }
+
+    .payment-option.selected .checkmark {
+        display: block;
+    }
+
+    .payment-option.selected img {
+        border: 2px solid blue;
+        border-radius: 5px;
+    }
+
